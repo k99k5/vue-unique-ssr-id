@@ -1,0 +1,22 @@
+{
+	"name": "vue-unique-ssr-id",
+	"author": "TigerKK",
+	"description": "A Vue 3 plugin to generate unique SSR id for each component",
+	"main": "dist/index.umd.cjs",
+	"files": [
+		"dist/*"
+	],
+	"private": false,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"vite": "^5.0.8",
+		"vue": ">3.0",
+		"hash-wasm": "^4.11.0"
+	}
+}
