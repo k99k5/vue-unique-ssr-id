@@ -6,8 +6,15 @@
 	"files": [
 		"dist/*"
 	],
+	"keywords": [
+		"vue",
+		"vue3",
+		"ssr",
+		"unique",
+		"id"
+	],
 	"private": false,
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",

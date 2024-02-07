@@ -27,3 +27,17 @@ app.use(vueBindSSRPlugin);
 
 app.directive('ssr', vueSSRMarker);
 ```
+
+---
+Usage
+---
+index.vue
+```vue
+<A v-ssr />
+```
+---
+A.vue
+```javascript
+import {useId} from "vue-unique-ssr-id";
+const ssrId =  useId();
+```
