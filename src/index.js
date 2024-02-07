@@ -5,7 +5,6 @@ import {createCRC32} from "hash-wasm";
  * @param app {{directive,mixin}} Vue实例
  */
 export function vueBindSSRPlugin(app) {
-    app.directive('ssr', {});
     app.mixin({
         props: {
             "dataSsrId": {
@@ -14,6 +13,10 @@ export function vueBindSSRPlugin(app) {
             }
         },
     })
+}
+
+export function vueSSRMarker() {
+
 }
 
 export async function viteBindSSRPlugin() {
